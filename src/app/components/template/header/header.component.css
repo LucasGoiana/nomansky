@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section.banner-principal{
+    background: url('../../../../assets/img/1.jpg') no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+section.banner-dott{
+    background: url('../../../../assets/img/dott.png') repeat 0px 0px;
+    -webkit-background-size: 2px;
+    padding: 2.5em 0;
+}
+
+section.banner-principal section.banner-dott h1.logo-title{
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF9800;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 6px;
+    padding: 100px 0px 70px 0px;
+}
+
+section.banner-principal section.banner-dott h1.logo-title span{
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+section.banner-principal section.banner-dott nav{
+    text-align: center;
+}
+
+section.banner-principal section.banner-dott nav ul{
+ /*   list-style: none;*/
+}
+
+section.banner-principal section.banner-dott nav ul li {
+    display: inline-block;
+    color: #fff;
+    padding: .6em 2em;
+    margin-right: 1.5em;
+    font-size: 1.1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+section.banner-principal section.banner-dott nav ul li.active {
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+section.banner-principal section.banner-dott nav ul li:nth-child(odd):hover{ 
+    border: 2px solid;
+    border-radius: 20px;
+    transition: .5s all;
+}
+
+section.banner-principal section.banner-dott nav ul li:nth-child(even){
+    border: 3px solid ;
+    border-radius: 50%;
+    padding: 0;
+
+}
